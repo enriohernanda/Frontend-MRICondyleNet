@@ -9,9 +9,9 @@ import { BiLogoGmail } from 'react-icons/bi';
 import Image from 'next/image';
 
 const teamMembers = [
-  { name: 'Enrio Hernanda', role: 'Frontend Developer', img: '/mike-wazowski.png' },
-  { name: 'Anugrah Lan Pambudi', role: 'Backend Developer', img: '/mike-wazowski.png' },
-  { name: 'Kafah Al Farizi Andeza', role: 'AI Modeling', img: '/mike-wazowski.png' },
+  { name: 'Enrio Hernanda', role: 'Frontend Engineer', img: '/mike-wazowski.png' },
+  { name: 'Anugrah Lan Pambudi', role: 'Backend Engineer', img: '/mike-wazowski.png' },
+  { name: 'Kafah Al Farizi Andeza', role: 'ML Engineer', img: '/mike-wazowski.png' },
 ];
 
 const OurTeam = () => {
@@ -50,7 +50,7 @@ const OurTeam = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
                   <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 relative rounded-full overflow-hidden border-2 border-gray-600">
-                    <Image src={member.img} alt={member.name} fill={true} className="object-cover" />
+                    <Image src={member.img} alt={member.name} fill={true} className="translate-y-3" />
                   </div>
                   <h3 className="text-base sm:text-lg md:text-xl font-semibold text-white mt-2">{member.name}</h3>
                   <p className="text-white text-sm md:text-base text-center">{member.role}</p>
