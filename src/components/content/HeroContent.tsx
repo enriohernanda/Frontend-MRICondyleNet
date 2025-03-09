@@ -32,14 +32,14 @@ const HeroContent = () => {
           Project AI Yarsi University
         </motion.p>
 
-        <motion.a variants={slideInFromBottom} animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.8 }} href="#" target="_blank" rel="noopener noreferrer">
+        <motion.a variants={slideInFromBottom} animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.8 }} href="/login" target="_self" rel="noopener noreferrer">
           <button
             type="button"
             className="py-3 px-14 me-2 mb-2 text-sm font-semibold rounded-xl focus:outline-none 
-                   border-2 border-teal-500 text-white 
-                   hover:bg-gradient-to-r from-blue-500 to-teal-500 bg-[length:200%_100%] bg-left 
+                   border-2 border-cyan-500 text-white 
+                   hover:bg-gradient-to-r from-blue-500 to-cyan-500 bg-[length:200%_100%] bg-left 
                    transition-all duration-500 ease-in-out 
-                   hover:bg-[position:100%_0]"
+                   hover:bg-[position:100%_0] cursor-pointer"
           >
             Start Now
           </button>
