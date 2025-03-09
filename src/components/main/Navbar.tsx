@@ -54,7 +54,7 @@ const Navbar = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className={`hidden md:flex px-6 md:px-8 py-3 md:py-4 bg-gray-900 text-white rounded-full gap-4 md:gap-6 transition-all max-w-full md:max-w-fit top-0 shadow-lg shadow-teal-500/50 bg-transparent backdrop-blur-md ${
+        className={`hidden md:flex px-6 md:px-8 py-3 md:py-4 bg-gray-900 text-white rounded-full gap-4 md:gap-6 transition-all max-w-full md:max-w-fit top-0 shadow-lg shadow-cyan-500/50 bg-transparent backdrop-blur-md ${
           isSticky ? 'py-3 px-10 md:py-4 md:px-16 top-2' : 'top-4'
         }`}
       >
