@@ -24,7 +24,7 @@ const Publication = () => {
 
   return (
     <div ref={ref} className="flex flex-col items-center gap-10 min-h-screen w-[90%] sm:w-[80%] px-4 sm:px-12 md:px-16 py-20 justify-center mx-auto">
-      <a href="https://ieeexplore.ieee.org/document/10875826" target="_blank" rel="noopener noreferrer" className="w-full hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:shadow-teal-500/80">
+      <a href="#" target="_blank" rel="noopener noreferrer" className="w-full hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:shadow-cyan-500/80">
         <motion.div
           className="p-6 sm:p-10 opacity-[0.9] rounded-xl w-full shadow-lg shadow-cyan-500/50 bg-transparent backdrop-blur-md cursor-pointer transition-transform duration-300 hover:scale-105"
           variants={zoomIn}
