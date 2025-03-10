@@ -1,12 +1,12 @@
-import About from '@/components/main/About';
-import Acknowledgment from '@/components/main/Acknowledgement';
-import Segmentation from '@/components/main/features/Segmentation';
-import Footer from '@/components/main/Footer';
-import Hero from '@/components/main/Hero';
-import Model from '@/components/main/Model';
-import Navbar from '@/components/main/Navbar';
-import OurTeam from '@/components/main/OurTeam';
-import Publication from '@/components/main/Publication';
+import About from '@/components/landingPage/About';
+import Acknowledgment from '@/components/landingPage/Acknowledgement';
+import Segmentation from '@/components/landingPage/features/Segmentation';
+import Footer from '@/components/landingPage/Footer';
+import Hero from '@/components/landingPage/Hero';
+import Model from '@/components/landingPage/Model';
+import Navbar from '@/components/landingPage/Navbar';
+import OurTeam from '@/components/landingPage/OurTeam';
+import Publication from '@/components/landingPage/Publication';
 
 export default function Home() {
   return (
