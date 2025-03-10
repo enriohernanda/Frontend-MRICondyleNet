@@ -5,7 +5,7 @@ import PasswordInput from '../PasswordInput';
 
 const RegisterForm = () => {
   return (
-    <div className="absolute lg:relative flex flex-col w-full md:w-1/2 px-5 py-5 lg:px-10 lg:py-20 mt-12 bg-white rounded-3xl lg:rounded-none">
+    <div className="absolute md:mt-50 lg:relative flex flex-col w-full md:w-1/2 px-5 py-5 lg:px-10 lg:py-20 lg:mt-12 bg-white rounded-3xl lg:rounded-none">
       <h2 className="text-2xl lg:text-3xl font-bold text-[#3674B5]">Register</h2>
       <p className="text-black text-sm">If you don’t have an account register here</p>
       <form className="mt-6 flex flex-col space-y-4">
