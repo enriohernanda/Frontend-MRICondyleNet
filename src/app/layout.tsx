@@ -18,6 +18,9 @@ const orelega = Orelega_One({
 export const metadata: Metadata = {
   title: 'MRICondyleNET',
   description: 'MRICondyleNET Project AI Yarsi University',
+  icons: {
+    icon: '/logo-MRICondyleNet.png',
+  },
 };
 
 export default function RootLayout({
