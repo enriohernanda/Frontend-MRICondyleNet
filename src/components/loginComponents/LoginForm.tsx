@@ -5,7 +5,7 @@ import PasswordInput from '../PasswordInput';
 
 const LoginForm = () => {
   return (
-    <div className="absolute md:mt-50 lg:relative flex flex-col w-full md:w-1/2 px-5 py-5 lg:px-10 lg:py-20 lg:mt-12 bg-white rounded-3xl lg:rounded-none">
+    <div className="absolute md:mt-50 lg:relative flex flex-col w-[90%] ml-[5%] md:ml-0 md:w-1/2 px-5 py-5 lg:px-10 lg:py-20 lg:mt-12 bg-white rounded-3xl lg:rounded-none shadow-[0_4px_10px_rgba(0,0,0,0.0.1),4px_0px_10px_rgba(0,0,0,0.0.1),-4px_0px_10px_rgba(0,0,0,0.0.1),0px_-4px_10px_rgba(0,0,0,0.0.1)] lg:shadow-none marginForm">
       <h2 className="text-2xl lg:text-3xl font-bold text-[#3674B5]">Login</h2>
       <p className="text-black text-sm">Login your account here</p>
       <form className="mt-6 flex flex-col space-y-4">
