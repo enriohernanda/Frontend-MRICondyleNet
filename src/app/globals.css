@@ -13,3 +13,17 @@ body {
 .font-orelega {
   font-family: var(--font-orelega-one);
 }
+
+/* Form untuk ukuran 390px sampai 700px */
+@media (min-width: 390px) and (max-width: 700px) {
+  .marginForm {
+    margin-top: -80px;
+  }
+}
+
+/* theme untuk ukuran 0px sampai 380px */
+@media (min-width: 0px) and (max-width: 380px) {
+  .height_theme {
+    height: 100px;
+  }
+}
