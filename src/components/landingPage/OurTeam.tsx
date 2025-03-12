@@ -32,7 +32,7 @@ const OurTeam = () => {
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
         transition={{ duration: 0.5 }}
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-cyan-500 mb-1"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-cyan-500 mb-1"
       >
         Our Team
       </motion.h2>
