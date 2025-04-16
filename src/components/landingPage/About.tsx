@@ -36,7 +36,7 @@ const About = () => {
                   <Typewriter
                     key={key}
                     words={[
-                      'MRICondyleNET is an Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. ',
+                      'MRICondyleNet is an AI-driven research project focused on instance segmentation of the mandibular condyle using MRI images. The condyle is a crucial structure in the temporomandibular joint (TMJ), and precise segmentation of this region plays a vital role in the early detection and analysis of Temporomandibular Joint Disorders (TMJDs). This project leverages state-of-the-art deep learning models, including Detectron2, MMDetection (Cascade Mask R-CNN), and MMsegmentation (DeepLabV3+), combined through ensemble learning strategies to improve accuracy and robustness. The dataset comprises 360 annotated MRI images, meticulously labeled in COCO format, with preprocessing and data augmentation applied to enhance model generalization. All development and training are conducted on cloud and local GPU environments to optimize performance and scalability. By bringing AI into the realm of dental and craniofacial radiology, this project aims to assist healthcare professionals with a reliable and automated tool for condyle detection and segmentation—paving the way for smarter diagnostics and better patient outcomes.',
                     ]}
                     loop={false}
                     cursor
