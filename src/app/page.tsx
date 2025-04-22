@@ -10,7 +10,7 @@ import Publication from '@/components/landingPage/Publication';
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full overflow-x-hidden bg-gradient-to-br from-[#161D6F] via-[#0B2F9F] to-[#000000] lg:pt-20">
+    <main className="min-h-screen w-full overflow-x-hidden bg-[#161B22] lg:pt-20">
       <Navbar />
       <div className="flex flex-col gap-10 md:gap-20 w-full">
         <Hero />

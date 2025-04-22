@@ -6,7 +6,7 @@ import { ReactNode } from 'react';
 
 const MainLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="min-h-screen w-full overflow-x-hidden bg-[#EBEBEB] dark:bg-gradient-to-br dark:from-[#161D6F] dark:via-[#0B2F9F] dark:to-[#000000]">
+    <div className="min-h-screen w-full overflow-x-hidden bg-[#EBEBEB] dark:bg-[#0D1117]">
       {/* Navbar */}
       <NavbarMain />
 
