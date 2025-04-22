@@ -11,8 +11,8 @@ const Acknowledgment = () => {
   return (
     <div ref={ref} className="flex flex-col md:flex-row items-center justify-center min-h-screen w-full px-12 md:px-16 gap-16">
       <motion.div className="md:w-1/2 text-center md:text-left" variants={slideInFromLeft(0.5)} initial="hidden" animate={inView ? 'visible' : 'hidden'}>
-        <h2 className="text-2xl md:text-5xl font-bold text-white mb-8">Acknowledgment</h2>
-        <p className="text-white text-lg mt-4">
+        <h2 className="text-2xl md:text-5xl font-bold text-gray-200 mb-8">Acknowledgment</h2>
+        <p className="text-gray-200 text-lg mt-4">
           This poject is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
           sem quam semper libero
         </p>

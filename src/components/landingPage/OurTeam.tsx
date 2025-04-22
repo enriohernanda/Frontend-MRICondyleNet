@@ -26,13 +26,13 @@ const OurTeam = () => {
   }, []);
 
   return (
-    <div ref={ref} className="flex flex-col items-center justify-center min-h-screen w-full py-20 text-center bg-transparent text-white gap-10">
+    <div ref={ref} className="flex flex-col items-center justify-center min-h-screen w-full py-20 text-center bg-transparent text-gray-200 gap-10">
       <motion.h2
         variants={slideInFromTop}
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
         transition={{ duration: 0.5 }}
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-cyan-500 mb-1"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-cyan-500 mb-1"
       >
         Our Team
       </motion.h2>
@@ -52,19 +52,19 @@ const OurTeam = () => {
                   <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 relative rounded-full overflow-hidden border-2 border-gray-600">
                     <Image src={member.img} alt={member.name} fill={true} className="translate-y-3" />
                   </div>
-                  <h3 className="text-base sm:text-lg md:text-xl font-semibold text-white mt-2">{member.name}</h3>
-                  <p className="text-white text-sm md:text-base text-center">{member.role}</p>
+                  <h3 className="text-base sm:text-lg md:text-xl font-semibold text-gray-200 mt-2">{member.name}</h3>
+                  <p className="text-gray-200 text-sm md:text-base text-center">{member.role}</p>
                   <div className="flex space-x-3">
-                    <a href="#" className="text-white hover:text-[#E4405F] transition-all duration-300 hover:scale-110">
+                    <a href="#" className="text-gray-200 hover:text-[#E4405F] transition-all duration-300 hover:scale-110">
                       <RxInstagramLogo size={24} />
                     </a>
-                    <a href="#" className="text-white hover:text-blue-500 transition-all duration-300 hover:scale-110">
+                    <a href="#" className="text-gray-200 hover:text-blue-500 transition-all duration-300 hover:scale-110">
                       <RxLinkedinLogo size={24} />
                     </a>
-                    <a href="#" className="text-white hover:text-gray-400 transition-all duration-300 hover:scale-110">
+                    <a href="#" className="text-gray-200 hover:text-gray-400 transition-all duration-300 hover:scale-110">
                       <RxGithubLogo size={24} />
                     </a>
-                    <a href="#" className="text-white hover:text-red-600 transition-all duration-300 hover:scale-110">
+                    <a href="#" className="text-gray-200 hover:text-red-600 transition-all duration-300 hover:scale-110">
                       <BiLogoGmail size={24} />
                     </a>
                   </div>

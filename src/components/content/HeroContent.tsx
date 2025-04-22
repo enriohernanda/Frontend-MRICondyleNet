@@ -18,13 +18,13 @@ const HeroContent = () => {
 
         <motion.div variants={slideInFromLeft(0.5)} animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.8 }} className="flex flex-col gap-6 font-bold text-white max-w-[800px] w-full">
           <span className="text-3xl md:text-6xl lg:text-6xl">
-            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-white to-[#12FFFB] font-orelega"> Lorem ipsum dolor </span>
+            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-[#D8D8D8] font-orelega"> Lorem ipsum dolor </span>
           </span>
           <span className="text-3xl md:text-6xl lg:text-6xl">
-            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-white to-[#12FFFB] font-orelega"> Lorem ipsum dolor </span>
+            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-[#D8D8D8] font-orelega"> Lorem ipsum dolor </span>
           </span>
           <span className="text-3xl md:text-6xl lg:text-6xl">
-            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-white to-[#12FFFB] font-orelega"> Lorem ipsum dolor </span>
+            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-[#D8D8D8] font-orelega"> Lorem ipsum dolor </span>
           </span>
         </motion.div>
 
@@ -36,7 +36,7 @@ const HeroContent = () => {
           <button
             type="button"
             className="py-3 px-14 me-2 mb-2 text-sm font-semibold rounded-xl focus:outline-none 
-                   border-2 border-cyan-500 text-white 
+                   border-2 border-cyan-500 text-gray-200 
                    hover:bg-gradient-to-r from-blue-500 to-cyan-500 bg-[length:200%_100%] bg-left 
                    transition-all duration-500 ease-in-out 
                    hover:bg-[position:100%_0] cursor-pointer"

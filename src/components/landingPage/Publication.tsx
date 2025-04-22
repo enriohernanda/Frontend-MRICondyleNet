@@ -32,16 +32,16 @@ const Publication = () => {
           animate={inView ? 'visible' : 'hidden'}
         >
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#12FFFB] font-bold text-3xl md:text-3xl lg:text-4xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-[#12FFFB] font-bold text-3xl md:text-3xl lg:text-4xl">
               {startTyping && <Typewriter key={key} words={['Publication.']} loop={false} cursor cursorStyle="_" typeSpeed={50} deleteSpeed={0} delaySpeed={500} />}
             </span>
-            <p className="text-gray-400 text-base sm:text-lg text-center sm:text-right">Date of Conference : Lorem ipsum</p>
+            <p className="text-gray-200 text-base sm:text-lg text-center sm:text-right">Date of Conference : Lorem ipsum</p>
           </div>
 
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-400 mb-4 mt-6 sm:mt-10">Publication Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. </h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-200 mb-4 mt-6 sm:mt-10">Publication Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. </h2>
 
-          <p className="text-white text-base sm:text-lg mb-6 sm:mb-8">
-            <span className="text-white">Published in: </span> lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.
+          <p className="text-gray-400 text-base sm:text-lg mb-6 sm:mb-8">
+            <span className="text-gray-400">Published in: </span> lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.
           </p>
         </motion.div>
       </a>

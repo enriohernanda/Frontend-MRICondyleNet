@@ -31,7 +31,7 @@ const About = () => {
         <motion.div ref={ref} initial={{ opacity: 0, y: 50 }} animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} transition={{ duration: 0.8 }} className="flex flex-col items-center justify-center w-full text-center">
           <div className="max-w-4xl mx-auto flex flex-col gap-5 justify-center items-center">
             <motion.div className="font-bold text-3xl md:text-3xl lg:text-4xl">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#12FFFB] font-orelega">
+              <span className="text-transparent bg-clip-text bg-[#D8D8D8] font-orelega">
                 {startTyping && (
                   <Typewriter
                     key={key}
