@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center px-6 py-4 bg-[#578FCA] dark:bg-[#0B2F9F] shadow-md">
+    <nav className="flex justify-between items-center px-6 py-4 bg-[#578FCA] dark:bg-[#161B22] shadow-md">
       {/* Logo */}
       <div className="flex items-center">
         <img src="/logo-MRICondyleNet.png" alt="Logo" className="h-8 md:h-10" />
