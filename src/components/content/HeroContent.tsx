@@ -18,13 +18,7 @@ const HeroContent = () => {
 
         <motion.div variants={slideInFromLeft(0.5)} animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.8 }} className="flex flex-col gap-6 font-bold text-white max-w-[800px] w-full">
           <span className="text-3xl md:text-6xl lg:text-6xl">
-            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-[#D8D8D8] font-orelega"> Lorem ipsum dolor </span>
-          </span>
-          <span className="text-3xl md:text-6xl lg:text-6xl">
-            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-[#D8D8D8] font-orelega"> Lorem ipsum dolor </span>
-          </span>
-          <span className="text-3xl md:text-6xl lg:text-6xl">
-            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-[#D8D8D8] font-orelega"> Lorem ipsum dolor </span>
+            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-[#D8D8D8] font-orelega">Dental Segmentation</span>
           </span>
         </motion.div>
 
