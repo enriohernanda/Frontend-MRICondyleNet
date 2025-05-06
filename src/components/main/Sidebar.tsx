@@ -12,9 +12,7 @@ const Sidebar = () => {
       {/* SECTION: Data */}
       <h2 className="text-white dark:text-gray-200 text-sm font-semibold uppercase hidden lg:block">Data</h2>
       <SidebarItem href="/upload" icon="/upload.png" text="Upload Data" pathname={pathname} />
-      <SidebarItem href="/annotate" icon="/annotate.png" text="Annotate" pathname={pathname} />
-      <SidebarItem href="/prediction" icon="/prediction.png" text="Prediction" pathname={pathname} />
-      <SidebarItem href="/analytics" icon="/analytics.png" text="Analytics" pathname={pathname} />
+      <SidebarItem href="/history" icon="/analytics.png" text="History" pathname={pathname} />
 
       {/* SECTION: Models */}
       <h2 className="text-white dark:text-gray-200 text-sm font-semibold uppercase hidden lg:block mt-4">Models</h2>
