@@ -9,9 +9,9 @@ import { BiLogoGmail } from 'react-icons/bi';
 import Image from 'next/image';
 
 const teamMembers = [
-  { name: 'Enrio Hernanda', role: 'Frontend Engineer', img: '/mike-wazowski.png' },
-  { name: 'Anugrah Lan Pambudi', role: 'Backend Engineer', img: '/mike-wazowski.png' },
-  { name: 'Kafah Al Farizi Andeza', role: 'ML Engineer', img: '/mike-wazowski.png' },
+  { name: 'Enrio Hernanda', role: 'Frontend Engineer', img: '/enrio.png' },
+  { name: 'Anugrah Lan Pambudi', role: 'Backend Engineer', img: '/alan.png' },
+  { name: 'Kafah Al Farizi Andeza', role: 'ML Engineer', img: '/kafah.png' },
 ];
 
 const OurTeam = () => {
@@ -26,14 +26,8 @@ const OurTeam = () => {
   }, []);
 
   return (
-    <div ref={ref} className="flex flex-col items-center justify-center min-h-screen w-full py-20 text-center bg-transparent text-gray-200 gap-10">
-      <motion.h2
-        variants={slideInFromTop}
-        initial="hidden"
-        animate={inView ? 'visible' : 'hidden'}
-        transition={{ duration: 0.5 }}
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-cyan-500 mb-1"
-      >
+    <div ref={ref} className="flex flex-col items-center justify-center min-h-screen w-full text-center bg-transparent text-gray-200 gap-7">
+      <motion.h2 variants={slideInFromTop} initial="hidden" animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.5 }} className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gray-200">
         Our Team
       </motion.h2>
 
@@ -44,7 +38,7 @@ const OurTeam = () => {
               {teamMembers.slice(i * 3, i * 3 + 3).map((member, index) => (
                 <motion.div
                   key={index}
-                  className="shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md px-4 py-6 rounded-2xl flex flex-col items-center gap-4"
+                  className="shadow-inner shadow-cyan-500/50 bg-[#03001417] backdrop-blur-md px-4 py-6 rounded-2xl flex flex-col items-center gap-4"
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
