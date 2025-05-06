@@ -105,9 +105,9 @@ const Footer = () => {
         <div className="gap-4">
           <h3 className="font-bold text-lg text-gray-200">Sign up for updates on our latest innovations</h3>
           <div className="mt-4">
-            <input type="email" placeholder="Email address" className="w-full p-2 bg-black border border-white rounded-md text-gray-200" />
+            <input type="email" placeholder="Email address" className="w-full p-2 bg-white border border-b-cyan-500 rounded-md text-black" />
             <p className="text-sm text-gray-200 mt-4">I accept Google&apos;s Terms and Conditions and acknowledge that my information will be used in accordance with Google&apos;s Privacy Policy.</p>
-            <button className="w-full mt-6 p-2 text-gray-200 bg-[#030C2A] border border-white hover:border-[#12FFFB] hover:text-[#12FFFB] transition py-2 rounded-xl uppercase cursor-pointer">Sign up</button>
+            <button className="w-full mt-6 p-2 text-gray-200 bg-[#161B22] border border-white hover:border-[#12FFFB] hover:text-[#12FFFB] transition py-2 rounded-xl uppercase cursor-pointer">Sign up</button>
           </div>
         </div>
       </div>
