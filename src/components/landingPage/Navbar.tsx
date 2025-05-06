@@ -73,7 +73,7 @@ const Navbar = () => {
         ))}
       </motion.nav>
 
-      {isOpen && <div className="fixed inset-0 bg-[#161D6F] bg-opacity-50 z-40" onClick={() => setIsOpen(false)} />}
+      {isOpen && <div className="fixed inset-0 bg-[#161B22] bg-opacity-50 z-40" onClick={() => setIsOpen(false)} />}
 
       <motion.div initial={{ x: '-100%' }} animate={{ x: isOpen ? 0 : '-100%' }} transition={{ duration: 0.3 }} className="fixed top-0 left-0 w-64 h-full bg-gray-900 text-gray-200 z-50 flex flex-col items-start p-6 shadow-lg">
         <button className="absolute top-4 right-4 text-2xl" onClick={() => setIsOpen(false)}>
