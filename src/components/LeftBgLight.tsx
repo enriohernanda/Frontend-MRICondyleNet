@@ -2,13 +2,13 @@ import React from 'react';
 import Image from 'next/image';
 
 const LeftBgLight = () => {
-  const isDark = typeof window !== 'undefined' && document.documentElement.classList.contains('dark');
   return (
     <>
       <div
         className={`hidden lg:flex flex-col items-center w-1/2
-      ${isDark ? 'bg-[#0D1117]' : 'bg-gradient-to-br from-[#3674B5] via-[#578FCA] to-[#A1E3F9]'}
-      text-white p-10 relative z-0 overflow-hidden`}
+  bg-[#3674B5]
+  dark:bg-[#0D1117]
+  text-white p-10 relative z-0 overflow-hidden`}
       >
         <h1 className="text-3xl font-bold pt-30">MRICondyleNet</h1>
         <div className="relative w-35 h-35 md:w-45 md:h-45 mt-5">

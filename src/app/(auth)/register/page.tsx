@@ -7,7 +7,7 @@ const RegisterPage = () => {
   return (
     <div
       className="flex justify-center flex-col md:flex-row min-h-screen w-full 
-                bg-gradient-to-br from-[#3674B5] via-[#578FCA] to-[#A1E3F9] 
+                bg-[#3674B5] 
                 dark:bg-[#0D1117] lg:bg-none"
     >
       <div className="absolute top-0 w-full z-20">
