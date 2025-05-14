@@ -1,10 +1,21 @@
 'use client';
 
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import NavbarMain from '@/components/main/NavbarMain';
 import Sidebar from '@/components/main/Sidebar';
 import { ReactNode } from 'react';
 
 const MainLayout = ({ children }: { children: ReactNode }) => {
+  const router = useRouter();
+
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      router.push('/login');
+    }
+  }, [router]);
+
   return (
     <div className="min-h-screen w-full overflow-x-hidden bg-[#EBEBEB] dark:bg-[#0D1117]">
       {/* Navbar */}
