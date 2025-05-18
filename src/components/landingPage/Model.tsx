@@ -19,12 +19,12 @@ const Model = () => {
           <motion.p variants={slideInFromRight(0.8)} animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.8 }} className="text-sm sm:text-lg text-gray-400 max-w-[800px] w-full px-4 sm:px-0">
             Our model is the most advanced ever made for gene assessment.
           </motion.p>
-          {/* 
+
           <motion.div variants={slideInFromBottom} animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.8 }} className="w-full max-w-[500px] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[800px] mt-10 flex justify-center">
             <div className="relative w-[80%] max-w-full h-[300px] sm:h-[400px] overflow-hidden">
-              <Image src="/logo-MRICondyleNet.png" alt="Blackhole" fill className="object-contain hover:scale-105 hover:-translate-y-1" />
+              <Image src="/ai_model.png" alt="AI Model" fill className="object-contain hover:scale-105 hover:-translate-y-1" />
             </div>
-          </motion.div> */}
+          </motion.div>
         </div>
       </motion.div>
     </div>
