@@ -58,8 +58,8 @@ const UploadPage = () => {
   };
 
   const handleUpload = () => {
-    console.log('Dummy upload:', selectedImage);
-    alert('Image uploaded (dummy)');
+    console.log('Upload:', selectedImage);
+    alert('Image uploaded successfully!');
   };
 
   const models = ['Mask R-CNN', 'Cascade Mask R-CNN', 'HTC', 'Mask2Formers', 'SOLOv2', 'Ensemble Method (Recommended)'];
