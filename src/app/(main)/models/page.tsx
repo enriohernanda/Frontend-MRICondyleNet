@@ -11,7 +11,7 @@ const ModelsPage = () => {
           <Image src="/models-blue.png" alt="Models Icon Light" width={32} height={32} className="block dark:hidden" />
           {/* Gambar untuk dark mode */}
           <Image src="/models-white.png" alt="Models Icon Dark" width={32} height={32} className="hidden dark:block" />
-          Models
+          About Models
         </h1>
       </div>
     </div>
