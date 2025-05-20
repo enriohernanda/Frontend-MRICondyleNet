@@ -42,10 +42,10 @@ const Navbar = () => {
           </button>
 
           {isDropdownOpen && (
-            <div className="absolute right-0 mt-2 w-36 bg-[#578FCA] dark:bg-[#0B2F9F] rounded-lg shadow-lg overflow-hidden">
-              <button className="block w-full text-left px-4 py-2 text-white hover:bg-[#5774ca] dark:hover:bg-[#100b9f] cursor-pointer">Profile</button>
+            <div className="absolute right-0 mt-2 w-36 bg-[#578FCA] dark:bg-[#161B22] rounded-lg shadow-lg overflow-hidden">
+              <button className="block w-full text-left px-4 py-2 text-white hover:bg-[#5774ca] dark:hover:bg-[#30363D] cursor-pointer">Profile</button>
               <hr className="border-gray-200 dark:border-gray-600" />
-              <button onClick={handleLogout} className="block w-full text-left px-4 py-2 text-white hover:bg-[#5774ca] dark:hover:bg-[#100b9f] cursor-pointer">
+              <button onClick={handleLogout} className="block w-full text-left px-4 py-2 text-white hover:bg-[#5774ca] dark:hover:bg-[#30363D] cursor-pointer">
                 Log Out
               </button>
             </div>
