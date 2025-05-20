@@ -98,7 +98,7 @@ const UploadPage = () => {
         onDragOver={handleDragOver}
         onDragLeave={handleDragLeave}
         onDrop={handleDrop}
-        className={`rounded-lg flex flex-col items-center justify-center p-10 transition-colors border-2 border-dashed border-sky-400 ${dragActive ? 'bg-blue-100 dark:bg-gray-800' : 'bg-[#F4F9FF] dark:bg-[#161B22]'}`}
+        className={`rounded-lg flex flex-col items-center justify-center p-10 transition-colors border-2 border-dashed border-sky-400 dark:border-[#2AB7C6] ${dragActive ? 'bg-blue-100 dark:bg-gray-800' : 'bg-[#F4F9FF] dark:bg-[#161B22]'}`}
       >
         <div className="mb-2">
           <Image src="/upload-cloud-blue.png" alt="Cloud Icon Light" width={48} height={48} className="block dark:hidden" />
@@ -108,7 +108,7 @@ const UploadPage = () => {
 
         {/* Buttons */}
         <div className="flex gap-4 flex-wrap justify-center">
-          <button onClick={handleFileSelect} className="flex items-center gap-2 bg-[#3674B5] dark:bg-[#161B22] text-white py-2 px-4 rounded hover:bg-[#2a5f9e] border border-sky-600 cursor-pointer">
+          <button onClick={handleFileSelect} className="flex items-center gap-2 bg-[#3674B5] dark:bg-[#161B22] text-white py-2 px-4 rounded hover:bg-[#2a5f9e] border border-sky-600 dark:border-[#2AB7C6] cursor-pointer">
             <Image src="/file.png" alt="File Icon" width={20} height={20} />
             Select file
           </button>
@@ -122,7 +122,7 @@ const UploadPage = () => {
         <div className="mt-5 flex flex-col items-center">
           <img src={imagePreviewUrl} alt="Preview" className="max-w-full max-h-96 rounded shadow-md mb-4" />
           <div className="flex gap-4">
-            <button onClick={handleUpload} className="bg-[#3674B5] dark:bg-[#161B22] hover:bg-[#2a5f9e] text-white px-4 rounded transition border border-sky-600 cursor-pointer">
+            <button onClick={handleUpload} className="bg-[#3674B5] dark:bg-[#161B22] hover:bg-[#2a5f9e] text-white px-4 rounded transition border border-sky-600 dark:border-[#2AB7C6] cursor-pointer">
               Upload
             </button>
             <button onClick={handleDelete} className="bg-red-600 hover:bg-red-700 text-white px-4 rounded transition cursor-pointer">
