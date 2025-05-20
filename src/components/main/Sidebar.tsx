@@ -25,7 +25,12 @@ interface SidebarItemProps {
 
 const SidebarItem = ({ href, icon, text, pathname }: SidebarItemProps) => {
   return (
-    <Link href={href} className={`flex items-center gap-4 p-2 rounded-md transition-all ${pathname === href ? 'bg-[#3674B5] dark:bg-[#30363D] text-white dark:text-gray-200' : 'text-white'} justify-center lg:justify-start w-full`}>
+    <Link
+      href={href}
+      className={`flex items-center gap-4 p-2 rounded-md transition-all ${
+        pathname === href ? 'bg-[#3674B5] border-sky-400 border-2 dark:border-[#2AB7C6] dark:bg-[#30363D] text-white dark:text-gray-200' : 'text-white'
+      } justify-center lg:justify-start w-full`}
+    >
       <Image src={icon} alt={text} width={24} height={24} />
       <span className="hidden lg:block">{text}</span>
     </Link>
