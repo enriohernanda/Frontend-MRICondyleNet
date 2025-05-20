@@ -9,15 +9,9 @@ const Sidebar = () => {
 
   return (
     <aside className="bg-[#578FCA] dark:bg-[#161B22] h-screen w-16 lg:w-60 p-4 flex flex-col gap-2 items-center lg:items-start">
-      {/* SECTION: Data */}
-      <h2 className="text-white dark:text-gray-200 text-sm font-semibold uppercase hidden lg:block">Data</h2>
       <SidebarItem href="/upload" icon="/upload.png" text="Upload Data" pathname={pathname} />
       <SidebarItem href="/history" icon="/analytics.png" text="History" pathname={pathname} />
-
-      {/* SECTION: Models */}
-      <h2 className="text-white dark:text-gray-200 text-sm font-semibold uppercase hidden lg:block mt-4">Models</h2>
-      <SidebarItem href="/models" icon="/models.png" text="Models" pathname={pathname} />
-      <SidebarItem href="/visualize" icon="/visualize.png" text="Visualize" pathname={pathname} />
+      <SidebarItem href="/models" icon="/models.png" text="About Models" pathname={pathname} />
     </aside>
   );
 };
