@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { FaBell, FaChevronDown } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
@@ -31,9 +31,6 @@ const Navbar = () => {
       <div className="flex items-center gap-6">
         {/* Theme Toggle */}
         <ThemeToggle />
-
-        {/* Notification Icon */}
-        <FaBell className="text-white text-2xl cursor-pointer" />
 
         {/* Profile + Dropdown */}
         <div className="relative">
