@@ -9,7 +9,6 @@ const UploadPage = () => {
 
   const [dragActive, setDragActive] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [selectedModel, setSelectedModel] = useState('Models');
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [imagePreviewUrl, setImagePreviewUrl] = useState<string | null>(null);
 
@@ -47,11 +46,6 @@ const UploadPage = () => {
     setIsDropdownOpen((prev) => !prev);
   };
 
-  const handleModelSelect = (model: string) => {
-    setSelectedModel(model);
-    setIsDropdownOpen(false);
-  };
-
   const handleDelete = () => {
     setSelectedImage(null);
     setImagePreviewUrl(null);
@@ -61,8 +55,6 @@ const UploadPage = () => {
     console.log('Upload:', selectedImage);
     alert('Image uploaded successfully!');
   };
-
-  const models = ['Mask R-CNN', 'Cascade Mask R-CNN', 'HTC', 'Mask2Formers', 'SOLOv2', 'Ensemble Method (Recommended)'];
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4 py-6 text-black dark:text-white">
@@ -78,17 +70,18 @@ const UploadPage = () => {
       {/* Dropdown */}
       <div className="relative mb-6">
         <button onClick={toggleDropdown} className="text-white border border-[#2AB7C6] rounded-md px-5 py-2 w-full sm:w-[300px] flex justify-between items-center bg-[#3674B5] dark:bg-[#161B22] transition cursor-pointer">
-          {selectedModel}
+          Models
           <FaChevronDown className={`ml-2 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
         </button>
 
         {isDropdownOpen && (
           <div className="absolute z-10 mt-1 p-2 w-full sm:w-[300px] bg-[#3674B5] dark:bg-[#161B22] rounded-md border border-[#2AB7C6] shadow-lg">
-            {models.map((model, idx) => (
-              <div key={idx} onClick={() => handleModelSelect(model)} className="cursor-pointer bg-white dark:bg-[#0D1117] border border-[#2AB7C6] px-4 py-2 mt-1 rounded-md hover:bg-gray-100 dark:hover:bg-[#1f2937] transition">
-                {model}
-              </div>
-            ))}
+            <div className="cursor-pointer bg-white dark:bg-[#0D1117] border border-[#2AB7C6] px-4 py-2 mt-1 rounded-md hover:bg-gray-100 dark:hover:bg-[#1f2937] transition">Mask R-CNN</div>
+            <div className="cursor-pointer bg-white dark:bg-[#0D1117] border border-[#2AB7C6] px-4 py-2 mt-1 rounded-md hover:bg-gray-100 dark:hover:bg-[#1f2937] transition">Cascade Mask R-CNN</div>
+            <div className="cursor-pointer bg-white dark:bg-[#0D1117] border border-[#2AB7C6] px-4 py-2 mt-1 rounded-md hover:bg-gray-100 dark:hover:bg-[#1f2937] transition">HTC</div>
+            <div className="cursor-pointer bg-white dark:bg-[#0D1117] border border-[#2AB7C6] px-4 py-2 mt-1 rounded-md hover:bg-gray-100 dark:hover:bg-[#1f2937] transition">Mask2Formers</div>
+            <div className="cursor-pointer bg-white dark:bg-[#0D1117] border border-[#2AB7C6] px-4 py-2 mt-1 rounded-md hover:bg-gray-100 dark:hover:bg-[#1f2937] transition">SOLOv2</div>
+            <div className="cursor-pointer bg-white dark:bg-[#0D1117] border border-[#2AB7C6] px-4 py-2 mt-1 rounded-md hover:bg-gray-100 dark:hover:bg-[#1f2937] transition">Ensemble Method (Recommended)</div>
           </div>
         )}
       </div>
