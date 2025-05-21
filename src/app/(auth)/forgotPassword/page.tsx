@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoBanner from '@/components/LogoBanner';
 import LeftBgLight from '@/components/LeftBgLight';
-import ForgotPassForm from '@/components/landingPage/forgotPassPage/ForgotPassForm';
+import ForgotPassForm from '@/components/forgotPassPage/ForgotPassForm';
 
 const ForgotPassPage = () => {
   return (
