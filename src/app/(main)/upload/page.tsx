@@ -79,14 +79,14 @@ const UploadPage = () => {
 
     try {
       setIsUploading(true);
-      const response = await fetch('https://581b-103-78-212-10.ngrok-free.app/api/predict', {
+      const response = await fetch('http://127.0.0.1:5000/api/predict', {
         method: 'POST',
         body: formData,
       });
 
       const result = await response.json();
       if (result.status === 'success') {
-        setResultImageUrl(`https://581b-103-78-212-10.ngrok-free.app${result.result_url}`);
+        setResultImageUrl(`${result.result_url}`);
       } else {
         alert(result.message || 'An error occurred while uploading.');
       }

@@ -20,7 +20,7 @@ const LoginForm = () => {
       formData.append('email', email);
       formData.append('password', password);
 
-      const response = await fetch('https://581b-103-78-212-10.ngrok-free.app/api/login', {
+      const response = await fetch('http://127.0.0.1:5000/api/login', {
         method: 'POST',
         body: formData,
       });
