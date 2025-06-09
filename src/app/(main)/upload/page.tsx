@@ -18,6 +18,7 @@ const UploadPage = () => {
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
   const [imagePreviewUrl, setImagePreviewUrl] = useState<string | null>(null);
   const [resultImageUrl, setResultImageUrl] = useState<string | null>(null);
+  const [message, setMessage] = useState('');
   const [dragActive, setDragActive] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedModel, setSelectedModel] = useState<number | null>(null);
@@ -73,9 +74,16 @@ const UploadPage = () => {
       return;
     }
 
+    const token = localStorage.getItem('token');
+    if (!token) {
+      setMessage('Unauthorized: No token found');
+      return;
+    }
+
     const formData = new FormData();
     formData.append('image', selectedImage);
     formData.append('model', selectedModel.toString());
+    formData.append('mytoken', token);
 
     try {
       setIsUploading(true);
