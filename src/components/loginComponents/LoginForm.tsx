@@ -25,11 +25,15 @@ const LoginForm = () => {
         body: formData,
       });
 
+
+
+      
       const data = await response.json();
 
-      if (!response.ok) {
+      if (data.result == "Fail") {
         setError(data.msg || 'Login failed');
       } else {
+        console.log(data.token)
         localStorage.setItem('token', data.token); // Simpan token
         router.push('/upload'); // Redirect ke /upload
       }
