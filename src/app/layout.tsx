@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google';
 import { Orelega_One } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/context/ThemeContext';
+import { UserProvider } from '@/context/UserContext';
 
 const poppins = Poppins({
   weight: ['400', '500', '700'],
@@ -31,8 +32,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${orelega.variable}  antialiased`}>
-        <ThemeProvider>{children}</ThemeProvider>
+      <body className={`${poppins.variable} ${orelega.variable} antialiased`}>
+        <ThemeProvider>
+          <UserProvider>
+            {children}
+          </UserProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
