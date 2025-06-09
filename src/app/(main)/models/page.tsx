@@ -13,6 +13,9 @@ const ModelsPage = () => {
           <Image src="/models-white.png" alt="Models Icon Dark" width={32} height={32} className="hidden dark:block" />
           About Models
         </h1>
+        <div className='rounded-lg flex flex-col items-center justify-center p-10 mt-6 transition-colors border-2 border-sky-400 dark:border-[#2AB7C6] bg-[#F4F9FF] dark:bg-[#161B22]'>
+
+        </div>
       </div>
     </div>
   );
