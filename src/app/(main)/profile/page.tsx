@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const ProfilePage = () => {
   return (
-    <div className="w-full h-full px-4 py-6 text-black dark:text-white">
+    <div className="w-full min-h-screen px-4 py-6 text-black dark:text-white">
       <div className="mb-6">
         <h1 className="text-2xl sm:text-3xl font-bold flex items-center gap-2">
                   {/* Icon Light Mode */}

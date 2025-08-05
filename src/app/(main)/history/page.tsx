@@ -121,7 +121,7 @@ const HistoryPage = () => {
   }, []);
 
   return (
-    <div className="w-full h-full px-4 py-2 text-black dark:text-white">
+    <div className="w-full min-h-screen px-4 sm:px-8 py-6 text-black dark:text-white">
       <div className="mb-4">
         <h1 className="text-3xl font-bold flex items-center gap-2">
           <Image src="/history-blue.png" alt="History Light" width={32} height={32} className="block dark:hidden" />
