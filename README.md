@@ -47,5 +47,5 @@ app/
    Akses di browser: http://localhost:3000
 
    ------------------------------------------------------------------
-   ## 📸 Preview
-   <img width="618" height="404" alt="landing-page" src="https://github.com/user-attachments/assets/fa15b5b3-5af2-48a0-9cb6-827dee321d0b" />
+## 📸 Preview
+![Landing Page]<img width="618" height="404" alt="landing-page" src="https://github.com/user-attachments/assets/fa15b5b3-5af2-48a0-9cb6-827dee321d0b" />
