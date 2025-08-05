@@ -7,8 +7,8 @@ MRICondyleNet adalah aplikasi berbasis web untuk mendeteksi kondisi Temporomandi
 ------------------------------------------------------------------
 
 ## 🚀 Teknologi yang Digunakan
-- [Next.js] – Framework React untuk frontend
-- [Tailwind CSS] – Utility-first CSS
+- Next.js – Framework React untuk frontend
+- Tailwind CSS – Utility-first CSS
 - Backend API – Terhubung ke Flask API untuk inferensi model AI
 
 ------------------------------------------------------------------
@@ -24,10 +24,10 @@ MRICondyleNet adalah aplikasi berbasis web untuk mendeteksi kondisi Temporomandi
 
 ## 📂 Struktur Folder
 app/
-├── main/ # Halaman utama: upload, prediction, visualize, dll
-├── auth/ # Login dan Register
-├── components/ # Navbar, Form, Card, dan UI lainnya
-└── layout/ # Layout dengan navbar global
+ main/ # Halaman utama: upload, prediction, visualize, dll
+ auth/ # Login dan Register
+ components/ # Navbar, Form, Card, dan UI lainnya
+ layout/ # Layout dengan navbar global
 
 
 ------------------------------------------------------------------
@@ -47,5 +47,3 @@ app/
    Akses di browser: http://localhost:3000
 
    ------------------------------------------------------------------
-## 📸 Preview
-![Landing Page]<img width="618" height="404" alt="landing-page" src="https://github.com/user-attachments/assets/fa15b5b3-5af2-48a0-9cb6-827dee321d0b" />
