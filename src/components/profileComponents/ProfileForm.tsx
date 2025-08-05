@@ -174,7 +174,7 @@ const ProfileForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-3xl mx-auto bg-white dark:bg-[#21262D] rounded-xl shadow-md px-6 py-10 text-center space-y-6"
+      className="max-w-3xl mx-auto border-2 transition-colors border-sky-400 dark:border-[#2AB7C6] bg-white dark:bg-[#21262D] rounded-xl shadow-md px-6 py-10 text-center space-y-6"
     >
       <div className="flex justify-center">
         <div
