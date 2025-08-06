@@ -97,7 +97,7 @@ MRICondyleNet is a web-based application for detecting Temporomandibular Joint (
 
 ------------------------------------------------------------------
 
-## 👥 Tim Pengembang
+## 👥 Development Team
 
 This project was worked on by 3 team members:
 
@@ -112,6 +112,6 @@ This project was worked on by 3 team members:
 ------------------------------------------------------------------
 
 ## 📞 Contact
-📧 Team Email: mricondylenet@gmail.com
-📧 Personal Email: enriohernanda@gmail.com
-🔗 LinkedIn: [linkedin.com/in/enriohernanda](https://www.linkedin.com/in/enrio-hernanda-9a9aa9284/)
+- 📧 Team Email: mricondylenet@gmail.com
+- 📧 Personal Email: enriohernanda@gmail.com
+- 🔗 LinkedIn: [linkedin.com/in/enriohernanda](https://www.linkedin.com/in/enrio-hernanda-9a9aa9284/)
