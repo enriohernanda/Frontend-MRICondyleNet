@@ -39,61 +39,62 @@ MRICondyleNet is a web-based application for detecting Temporomandibular Joint (
  ------------------------------------------------------------------
 
  ## 📸 Landing Page Preview
- <img width="2507" height="1063" alt="Landing Page" src="https://github.com/user-attachments/assets/ae41d0fa-d975-448d-978d-6ba1a6950a06" />
+<img width="2507" height="1063" alt="Landing Page" src="https://github.com/user-attachments/assets/c07d6419-df13-491b-8b88-252264b6e453" />
 
 ## 📸 Login Page Light Mode Preview
-<img width="2507" height="1063" alt="Login Page Light" src="https://github.com/user-attachments/assets/4e533804-4808-4caa-bc79-713bf507858e" />
+<img width="2507" height="1063" alt="Login Page Light" src="https://github.com/user-attachments/assets/678a5a6e-e2ab-4d5a-bf26-cd2fe2ae29ef" />
 
 ## 📸 Login Page Dark Mode Preview
-<img width="2507" height="1063" alt="Login Page Dark" src="https://github.com/user-attachments/assets/7e27d24d-0187-426b-8a3b-7ebb5ea20c60" />
+<img width="2507" height="1063" alt="Login Page Dark" src="https://github.com/user-attachments/assets/beb3d570-179b-4bcf-acac-c0ae532a6273" />
 
 ## 📸 Register Page Light Mode Preview
- <img width="2507" height="1063" alt="Register Page Light" src="https://github.com/user-attachments/assets/0cc151a3-c7b9-4a31-b10c-df9ad72a5a26" />
+<img width="2507" height="1063" alt="Register Page Light" src="https://github.com/user-attachments/assets/f8e77649-2a31-475b-aed4-8974becf1df7" />
 
 ## 📸 Register Page Dark Mode Preview
-<img width="2507" height="1063" alt="Register Page Dark" src="https://github.com/user-attachments/assets/11b573b1-95bc-4284-93b8-d70c1ca184d1" />
+<img width="2507" height="1063" alt="Register Page Dark" src="https://github.com/user-attachments/assets/e7da816c-a548-433e-a459-897b3f39e0df" />
 
 ## 📸 Forgot Password Page Light Mode Preview
-<img width="2507" height="1063" alt="Forgot Password Page Light" src="https://github.com/user-attachments/assets/e66e1cab-0026-494b-acb4-ed54a440e707" />
+<img width="2507" height="1063" alt="Forgot Password Page Light" src="https://github.com/user-attachments/assets/5c7ab461-071e-4730-a73b-c021344a20d6" />
 
 ## 📸 Forgot Password Page Dark Mode Preview
-<img width="2507" height="1063" alt="Forgot Password Page Dark" src="https://github.com/user-attachments/assets/ce4051b7-ce39-406a-8002-c19434062ca7" />
+<img width="2507" height="1063" alt="Forgot Password Page Dark" src="https://github.com/user-attachments/assets/0a9d41d9-2ca8-40b8-9ad7-c8c175e7fb81" />
 
 ## 📸 Reset Password Page Light Mode Preview
-<img width="2507" height="1063" alt="Reset Password Page Light" src="https://github.com/user-attachments/assets/6f27c973-7366-430d-aeeb-383bad607732" />
+<img width="2507" height="1063" alt="Reset Password Page Light" src="https://github.com/user-attachments/assets/c3645d62-33cb-42c5-baff-dd444a0a26c2" />
 
 ## 📸 Reset Password Page Dark Mode Preview
-<img width="2507" height="1063" alt="Reset Password Page Dark" src="https://github.com/user-attachments/assets/5a0358da-e33a-42d0-b4e4-975b8d019b87" />
+<img width="2507" height="1063" alt="Reset Password Page Dark" src="https://github.com/user-attachments/assets/caaba789-4440-4b3a-9600-ba9afaa47209" />
 
 ## 📸 Profile Page Light Mode Preview
-<img width="2507" height="1063" alt="Profile Page Light" src="https://github.com/user-attachments/assets/b16d872d-d4ec-4d82-bd47-dad31a77f537" />
+<img width="2507" height="1063" alt="Profile Page Light" src="https://github.com/user-attachments/assets/d7d6c622-a113-42cf-847b-588b7f10e559" />
 
 ## 📸 Profile Page Dark Mode Preview
-<img width="2507" height="1063" alt="Profile Page Dark" src="https://github.com/user-attachments/assets/93f62aed-bebc-43a7-b386-222729310543" />
+<img width="2507" height="1063" alt="Profile Page Dark" src="https://github.com/user-attachments/assets/9606e123-ba9d-4263-ae5d-8ab1a4f8c9b0" />
 
 ## 📸 Upload Page Light Mode Preview
-<img width="2507" height="1063" alt="Upload Page Light" src="https://github.com/user-attachments/assets/20f58126-f2e1-4a6b-987f-4fe4c93d86ba" />
+<img width="2507" height="1063" alt="Upload Page Light" src="https://github.com/user-attachments/assets/bf9976a9-c67b-4f16-989e-8f4cc8cb0798" />
 
 ## 📸 Upload Page Dark Mode Preview
-<img width="2507" height="1063" alt="Upload Page Dark" src="https://github.com/user-attachments/assets/b0fea30e-14b1-463b-a389-81b39ddd636e" />
+<img width="2507" height="1063" alt="Upload Page Dark" src="https://github.com/user-attachments/assets/ed822c33-2590-408c-83d9-54743b28a7ba" />
 
 ## 📸 History Page Light Mode Preview
-<img width="2507" height="1063" alt="History Page Light" src="https://github.com/user-attachments/assets/f62ff62e-6c09-4f30-b4d8-e8e0e15df69f" />
+<img width="2507" height="1063" alt="History Page Light" src="https://github.com/user-attachments/assets/a1e3dee2-566b-44b1-ada3-076d16c01fb7" />
 
 ## 📸 History Page Dark Mode Preview
-<img width="2507" height="1063" alt="History Page Dark" src="https://github.com/user-attachments/assets/548b5900-101e-4d6e-8c7d-29c02edb2322" />
+<img width="2507" height="1063" alt="History Page Dark" src="https://github.com/user-attachments/assets/d00ba2df-bbc5-4c36-b805-d6cbcc2f7548" />
 
 ## 📸 About Models Page Light Mode Preview
-<img width="2507" height="1063" alt="About Models Page Light" src="https://github.com/user-attachments/assets/71274cf2-c512-4534-858d-ab00acbc15db" />
+<img width="2507" height="1063" alt="About Models Page Light" src="https://github.com/user-attachments/assets/15352494-a929-4c67-98a9-0255ee64ac44" />
 
 ## 📸 About Models Page Dark Mode Preview
-<img width="2507" height="1063" alt="About Models Page Dark" src="https://github.com/user-attachments/assets/a085af86-bdeb-44f8-8792-6cec2e034406" />
+<img width="2507" height="1063" alt="About Models Page Dark" src="https://github.com/user-attachments/assets/58a091d3-3425-4687-977d-8055686b0347" />
 
 ## 📸 Guide Page Light Mode Preview
-<img width="2507" height="1063" alt="Guide Page Light" src="https://github.com/user-attachments/assets/d76accb6-baec-47e2-85bb-351dfa06bd1c" />
+<img width="2507" height="1063" alt="Guide Page Light" src="https://github.com/user-attachments/assets/01095ec3-cc64-4540-9fbb-a24f4ba6bc76" />
 
 ## 📸 Guide Page Dark Mode Preview
-<img width="2507" height="1063" alt="Guide Page Dark" src="https://github.com/user-attachments/assets/974b0fc7-4abd-4ebf-bc93-aee1179c5621" />
+<img width="2507" height="1063" alt="Guide Page Dark" src="https://github.com/user-attachments/assets/88a7207f-fb0e-4d0b-a01d-49fafb1af5d0" />
+
 
 ------------------------------------------------------------------
 
