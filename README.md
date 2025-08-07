@@ -25,8 +25,8 @@ MRICondyleNet is a web-based application for detecting Temporomandibular Joint (
 ## 🛠️ How to Run Locally
 
 1. **Clone repository**
-- git clone https://github.com/enriohernanda/Frontend-MRI-Condyle-Net.git
-- cd Frontend-MRI-Condyle-Net
+- git clone https://github.com/enriohernanda/Frontend-MRICondyleNet.git
+- cd Frontend-MRICondyleNet
 2. **Install dependency**
 - npm install
 3. **Create a .env.local file**
