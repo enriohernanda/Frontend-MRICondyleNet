@@ -115,4 +115,4 @@ This project was worked on by 3 team members:
 ## 📞 Contact
 - 📧 Team Email: mricondylenet@gmail.com
 - 📧 Personal Email: enriohernanda@gmail.com
-- 🔗 LinkedIn: [linkedin.com/in/enriohernanda](www.linkedin.com/in/enriohernanda)
+- 🔗 LinkedIn: [linkedin.com/in/enriohernanda](https://www.linkedin.com/in/enriohernanda/)
